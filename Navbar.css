@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #f8f4ff;
+}
+
+a{
+    color: #000;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4vh 2vw;
+    background-color: rgba(248, 244, 255, 0.9);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo a{
+    display: flex;
+    align-items: center;
+    gap: 0.5vw;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.logo a i{
+    font-size: 30px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #000;
+    font-size: small;
+    font-weight: 500;
+
+}
+
+nav .login-link{
+    color: #0fa968;
+    border: 1.5px solid #0fa968;
+    padding: 1vh 1vw;
+    border-radius: 5px;
+}
+
+nav .login-link:hover{
+    background-color: #0fa968;
+    color: #f8f4ff;
+}
+
+nav .register-link{
+    color: #11563a;
+    border: 1.5px solid #11563a;
+    padding: 1vh 1vw;
+    border-radius: 5px;
+}
+
+nav .register-link:hover{
+    background-color: #115611;
+    color: #f8f4ff;
+}
+
+.username {
+    margin: 0 1vw;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    background-color: #f0f4f8; 
+    padding: 0.2vh 1vw;
+    border-radius: 20px; 
+    display: inline-block; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav .logout-link{
+    color: #b10303;
+    border: 1.5px solid #b10303;
+    padding: 1vh 1vw;
+    border-radius: 5px;
+}
+
+nav .logout-link:hover{
+    background-color: #b10303;
+    color: #f8f4ff;
+}

@@ -1,0 +1,18 @@
+.categories-container{
+    display: flex;
+    gap: 5vw;
+}
+
+.top-container{
+    width: 70vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 2vh;
+}
+
+.category-heading {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.2em;
+    color: #333;
+}
